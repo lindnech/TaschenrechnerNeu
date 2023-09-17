@@ -1,0 +1,52 @@
+body { /* Beginn der Stildefinition für das body-Element */
+    display: flex; /* Setzt das Layout des body-Elements auf Flexbox */
+    justify-content: center; /* Zentriert die Inhalte des body-Elements horizontal */
+    align-items: center; /* Zentriert die Inhalte des body-Elements vertikal */
+    height: 100vh; /* Setzt die Höhe des body-Elements auf 100% der Fensterhöhe */
+    margin: 0; /* Entfernt den Außenabstand um das body-Element */
+    background-color: #f0f0f0; /* Setzt die Hintergrundfarbe des body-Elements auf ein helles Grau */
+} /* Ende der Stildefinition für das body-Element */
+
+
+#calculator {
+    width: 220px; /* Breite des Taschenrechners */
+    border: 2px solid rgb(2, 14, 141); /* Rahmen um den gesamten Taschenrechner */
+    border-radius:3%;/*Rahmen wird abgerundet   */
+    padding: 20px; /* Innenabstand um den Taschenrechner */
+    background-color: white; /* Hintergrundfarbe des Taschenrechners */
+}
+
+#display {
+    height: 30px; /* Höhe der Anzeige */
+    width: 88%; /* Breite des Displays */
+    background-color: #eee; /* Hintergrundfarbe der Anzeige */
+    padding: 10px; /* Innenabstand der Anzeige */
+    margin-bottom: 10px; /* Außenabstand unter der Anzeige */
+}
+
+.btn {
+    width: 50px; /* Breite einer Taste */
+    height: 50px; /* Höhe einer Taste */
+    float: left; /* Lässt die Tasten nebeneinander fließen */
+    margin-right: 5px; /* Rechter Außenabstand einer Taste */
+    margin-bottom: 5px; /* Unterer Außenabstand einer Taste */
+}
+
+.clear {
+    width: 105px; /* Breite der Clear-Taste */
+}
+
+.gleich {
+    background-color: #6F9; /* Hintergrundfarbe der Gleichheits-Taste */
+    width:98%; /* Breite der Gleichheits-Taste */
+    order: 99; /* Stellt sicher, dass die Gleichheits-Taste am Ende angezeigt wird */
+}
+
+.operator {
+    background-color: rgb(175, 209, 241); /* Hintergrundfarbe der Operator-Tasten */
+}
+
+h1 {
+    font-size: 20px; /* Setzt die Schriftgröße auf 24 Pixel */
+    ;
+}
